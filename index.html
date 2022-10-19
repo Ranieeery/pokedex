@@ -8,28 +8,25 @@
     <link rel="icon" href="./favicons/favicon-16x16.png">
     <link rel="stylesheet" href="./css/style.css">
 
-    <script defer src="./js/scripts.js"></script>
+    <script defer src="./js/script.js"></script>
 </head>
 
 <body>
     <main>
-        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" alt="pokemon" class="pokemon__image"/>
+        <img src="#" alt="pokemon" class="pokemon_image"/>
         
-        <h1 class="pokemon_name">
-            eevee
-        </h1>
+        <h1 class="pokemon_name"></h1>
         <h1 class="pokemon_number" align="center">
-            N°: <span>133</span> <br>
+            N°: <span class="pokemon_numberjs"></span> <br>
         </h1>
         <!--<h1 class="pokemon_type" align="left">
             type: <span>normal</span>
         </h1>-->
 
         <form class="form" align="center">
-            <input 
-            type="search" class="input_search" placeholder="Nome ou número" required />
+            <input type="search" class="input_search" placeholder="Nome ou número" required />
         </form>
-
+        
         <div class="buttons">
             <button class="button btn-prev">Anterior</button>
             <button class="button btn-next">Próximo</button>
