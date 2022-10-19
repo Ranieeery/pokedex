@@ -27,12 +27,12 @@ body{
     max-width: 425px;
 }
 
-.pokemon__image {
+.pokemon_image {
     position: absolute;
-    bottom: 53%;
+    height: 26%;
+    bottom: 51%;
     left: 50%;
     transform: translate(-60%, 20%); /* perde qualidade */
-    height: 20%;
 }
 
 .pokemon_name  {
