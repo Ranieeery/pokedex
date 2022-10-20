@@ -29,9 +29,9 @@ body{
 
 .pokemon_image {
     position: absolute;
-    height: 26%;
-    bottom: 51%;
-    left: 50%;
+    height: 24%;
+    bottom: 51.6%;
+    left: 54%;
     transform: translate(-60%, 20%); /* perde qualidade */
 }
 
@@ -98,7 +98,7 @@ body{
     height: 100%;
     border: 3px solid #000000;
     border-radius: 5px 10px;
-    font-size: clamp(5px, 5vw, 0.8rem);
+    font-size: clamp(3px, 4vw, 0.9rem);
     font-weight: 600;
     color: white;
     background-color: #404041;
@@ -108,3 +108,23 @@ body{
     box-shadow: inset -4px 1.5px 0 #222;
     font-size: 0.74rem;
   }
+
+.random {
+    position: absolute;
+    background-color: rgb(247, 247, 247);
+    top: 29%;
+    left: 24%;
+    padding: 1%;
+    width: 10%;
+    height: 6.4%;
+    font-size: clamp(3px, 5vw, 1.4rem);
+    font-weight: 600;
+    border: 3px inset #2a3035;
+    border-radius: 8px 16px 16px 8px;
+    color: black;
+}
+
+.random:active {
+    box-shadow: inset -4px 1.5px 0 rgb(90, 90, 90);
+    font-size: 120%;
+}
